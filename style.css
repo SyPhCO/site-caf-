@@ -1,0 +1,287 @@
+
+.container1
+{
+    
+    background-color: #FFD700;
+    border: 2px black solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 25px solid blue;
+    color: #000080;
+    margin-top: 20px;
+}
+form
+{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.logo1
+{
+    width: 150px;
+    height: 148px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    
+}
+.logo2
+{
+    width: 150px;
+    height: 148px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+body
+{
+    background-image: url(drapeau.jpg); 
+    background-repeat: no-repeat;
+    background-position:top;
+    margin: 0;
+    width:auto;
+    background-size: cover;
+    /*background-color: blue;*/
+}
+
+.container2
+{
+    display: flex;
+    flex-direction: row;
+}
+.paquet1
+{
+    display: flex;
+}
+.liste1
+{
+    font : italic 1rem Arial, Helvetica, sans-serif; 
+    align-content: center;
+    color: white;
+    line-height: 80px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.paquet2
+{
+    display: flex;
+    align-content: flex-end;
+    position: inherit;
+}
+.container3
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.container4
+{
+    display: flex;
+    flex-direction: row;
+}
+@font-face
+{
+   font-family: 'maFonte';
+  src: url('/img/screenshot_css/breac_webfont.eot');
+  src: url('/img/screenshot_css/breac_webfont.eot?#iefix') format('embedded-opentype'),
+  url('/img/screenshot_css/breac_webfont.woff') format('woff'), 
+  url('/img/screenshot_css/breac_webfont.woff2') format('woff2'),
+  url('/img/screenshot_css/breac_webfont.ttf') format('truetype'),
+  url('/img/screenshot_css/breac_webfont.svg#breac_webfont') format('svg');
+
+  font-stretch : normal;
+  font-weight : normal;
+  font-style : normal;
+}
+p{
+  font-family : "maFonte", Helvetica, Arial, sans-serif; 
+}
+tr, table
+{
+    font : italic 1rem Arial, Helvetica, sans-serif; 
+    align-content: center;
+    color: white;
+    line-height: 80px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+table
+{
+    margin-left: 150px;
+    border-spacing: 100px;
+    margin-top: -110px;
+}
+a
+{
+    color: white;
+}
+.hdp
+{
+    margin-left:900px;
+}
+containerphoto
+{
+    width:1500px;
+    height: 75%;
+}
+.photo
+{
+    width: 500px;
+    height:500px;
+}
+.audio
+{
+    display: block;
+    margin-left: 49%;
+    margin-top: 120px;
+    width:300px;
+}
+.mail, .pmail
+{
+    font-size: 2rem;
+    color: white;
+}
+.containercontact
+{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.cartedevisite
+{
+    display: inline;
+    margin-left:100px;
+}
+.qrcode
+{
+    display: block;  
+    margin-top:-200px;
+    margin-left: 1500px;
+}
+.contactliste
+{
+    display: block;
+    margin-top:-100px;
+    margin-left: 500px;
+}
+.photo
+{
+    display: block;
+    width:25%;
+    height:25%;
+}
+.audio2
+{
+    display: block;
+    
+}
+.voyage
+{
+    font : italic 1rem Arial, Helvetica, sans-serif; 
+    align-content: center;
+    color: blue;
+    line-height: 80px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+.commentaire1
+{
+    font : italic 1rem Arial, Helvetica, sans-serif; 
+    align-content: center;
+    color: white;
+    line-height: 80px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    font-size: 1rem;
+    text-align: center;
+}
+.voyagefond
+{
+    background-color: gold;
+     border: 2px black solid;
+    border-radius: 30px;
+    
+}
+.containerpresentation
+{
+    display: flex;
+    
+}
+.huila
+{
+    display: block;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.presentationleft
+{
+    display: block;
+    
+}
+.containerconseils
+{
+    display: flex;
+}
+.conseilphoto
+{
+    display:block;
+    margin-top: 200px;
+}
+.conseiltexte
+{
+    display:block;
+    
+}
+.lienaudio
+{
+    margin-left:1700px;
+    margin-bottom: 500px;
+}
+.containerprix
+{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-top: -15px;
+}
+.formulaire
+{
+    display: block;
+    flex-direction: column;
+    margin-left:50px;
+}
+.prix
+{
+    display: block;
+    margin-left:800px;
+}
+.containerlivraison
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.livraisontexte
+{
+    display: block;
+    margin-left: 100px;
+}
+.imglivraison
+{
+    display: block;
+    margin-left: 200px;
+    margin-top: -100px;
+}
